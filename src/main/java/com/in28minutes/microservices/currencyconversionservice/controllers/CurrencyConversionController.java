@@ -31,7 +31,8 @@ public class CurrencyConversionController {
 	
 	
 	// Example of old method using rest template for calling currency exchange microservice 
-	@GetMapping("/currency-converter/from/{from}/to/{to}/quantity/{quantity}")
+	@GetMapping("/2750"
+			+ "/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversionBean convertCurrency(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity){
 		
 		
